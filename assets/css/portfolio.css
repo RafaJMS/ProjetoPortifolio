@@ -1,4 +1,51 @@
-.git-link{
-    list-style-type: circle;
-    margin-left: 40px;
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:100%;    
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
+
+.portfolio li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0.5rem ;
+
+}
+
+.portfolio li .title-git{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.25rem;
+    
+
+}
+.portfolio li .title.github::before{
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../img/icons/github.svg');
+    margin-right: .5rem;
+
+}
+
+.portfolio li a{
+   color: azure;
+
+   text-decoration: none;
+
+}
+
+.portfolio li a:hover{
+    color: rgb(0, 255, 242);
+    text-decoration: underline;
+ 
+ }

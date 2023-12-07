@@ -8,7 +8,7 @@
 .main{
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid wheat;
+    border: 1px solid rgba(0, 255, 242, 0.575);
     border-radius: 1rem;
 }
 
@@ -41,7 +41,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(63, 62, 62);
     color: azure;
 }
 
@@ -50,9 +50,12 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: yellowgreen;
+    color: rgba(0, 255, 242, 0.712);
     text-decoration: underline;
 }
+
+
+
 
 @media only screen and (min-width:768px) {
     .main{
