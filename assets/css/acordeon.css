@@ -12,11 +12,14 @@
 .acordeon:hover{
     background: rgb(5, 99, 94);
     border: 1px solid rgb(5, 99, 94);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
     
 }
 .acordeon.open{
     background: rgba(5, 138, 131, 0.103);
     border-color: rgba(7, 156, 149, 0.103);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .acordeon .trigger{
